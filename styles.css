@@ -1,0 +1,148 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .options {
+            margin-bottom: 20px;
+        }
+
+        .category {
+            margin-top: 20px;
+        }
+
+        .options button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .options button.active {
+            border: 2px solid black;
+        }
+
+         /* Warna untuk setiap item */
+        .rumput {
+            background-color: #4CAF50 !important; /* Hijau */
+        }
+
+        .batu {
+            background-color: #808080 !important; /* Abu-abu */
+        }
+
+        .kayu {
+            background-color: #8B4513 !important; /* Coklat */
+        }
+
+        .lobak {
+            background-color: #FF69B4 !important; /* Merah Muda */
+        }
+
+        .cabai {
+            background-color: #98FB98 !important; /* Hijau Kuning */
+        }
+
+        .jagung {
+            background-color: #f79b23 !important; /* Kuning Cerah */
+        }
+
+        .tomat {
+            background-color: #FF6347 !important; /* Merah */
+        }
+
+        .wortel {
+            background-color: #FFA500 !important; /* Oranye */
+        }
+
+        .kubis {
+            background-color: #006400 !important; /* Hijau Tua */
+        }
+
+        .ketimun {
+            background-color: #32CD32 !important; /* Hijau Terang */
+        }
+
+        .strawberry {
+            background-color: #FF1493 !important; /* Merah Muda */
+        }
+
+        .bawang {
+            background-color: #FFBF00 !important; /* Kuning Tua */
+        }
+
+        .labu {
+            background-color: #FFD700 !important; /* Kuning Cerah */
+        }
+
+        .nanas {
+            background-color: #d9bb27 !important; /* Kuning Muda */
+        }
+
+        .terung {
+            background-color: #800080 !important; /* Ungu */
+        }
+
+        .kentangmanis {
+            background-color: #D2691E !important; /* Coklat Muda */
+        }
+
+        .bayam {
+            background-color: #2E8B57 !important; /* Hijau Tua */
+        }
+
+        .cabaihijau {
+            background-color: #32CD32 !important; /* Hijau Muda */
+        }
+
+        .moondrop {
+            background-color: #ffaa71 !important; /* Hijau Muda */
+        }
+
+        .toy {
+            background-color: #57b7f7 !important; /* Hijau Muda */
+        }
+
+        .pinkcat {
+            background-color: #f745f1 !important; /* Hijau Muda */
+        }
+
+        .magicred {
+            background-color: #c16ff7 !important; /* Hijau Muda */
+        }
+
+        .farm-layout {
+            display: grid;
+            grid-template-columns: repeat(45, 22px); /* Lebih renggang */
+            grid-gap: 4px; /* Tambah jarak antar slot */
+            justify-content: center;
+        }
+
+        .slot {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+
+        .slot.selected {
+            border: 1px solid #000;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
